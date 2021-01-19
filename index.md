@@ -8,6 +8,8 @@ $$W(\mathbf{C},\mu_n) = \frac{1}{n}\sum_{i=1}^n \min_{j=1,...,k} \lVert X_i - \m
 
 $$W(\mathbf{C},\mu) = \int \min_{j=1,...,k} \lVert X - \mathbf{c}_j\rVert^2 d\mu(x)$$
 
-令$\mathbf{C}_n = \min_{\mathbf{C} \in \mathcal{H}^k} W(\mathbf{C},\mu_n)$，$\mathbf{C}_n$是使得经验聚类风险最小的聚类中心。$W^*(\mu) = \inf_{\mathbf{C} \in \mathcal{H}^k} W(\mathbf{C},\mu)$为最优的期望聚类风险。
+令$\mathbf{C}_n = \argmin_{\mathbf{C} \in \mathcal{H}^k} W(\mathbf{C},\mu_n)$，
+
+$\mathbf{C}_n$是使得经验聚类风险最小的聚类中心。$W^*(\mu) = \inf_{\mathbf{C} \in \mathcal{H}^k} W(\mathbf{C},\mu)$为最优的期望聚类风险。
 
 可以通过
