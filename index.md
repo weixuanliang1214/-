@@ -6,7 +6,7 @@ $$W(\mathbf{C},\mu_n) = \frac{1}{n}\sum_{i=1}^n \min_{j=1,...,k} \lVert X_i - \m
 
 可以用期望聚类风险(expected clustering risk)评价某个聚类中心$\mathbf{C}$在整个数据分布$\mu$上的表现，具体如下式：
 
-$$W(\mathbf{C},\mu) = \int \min_{j=1,...,k} \lVert X - \mathbf{c}_j\rVert^2 d\mu(x)$$
+$W(\mathbf{C},\mu) = \int \min_{j=1,...,k} \lVert X - \mathbf{c}_j\rVert^2 d\mu(x)$
 
 令$\mathbf{C}_n = \argmin_{\mathbf{C} \in \mathcal{H}^k} W(\mathbf{C},\mu_n)$，
 
