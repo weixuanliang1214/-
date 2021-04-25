@@ -1,8 +1,8 @@
-#Towards a Unified Analysis of Random Fourier Features（ICML2019）#
-#面向傅里叶变换的统一分析#
-###作者：Zhu Li，Jean-François Ton，Dino Oglic，Dino Sejdinovic###
+<font size=2>Towards a Unified Analysis of Random Fourier Features（ICML2019）</font>
+面向傅里叶变换的统一分析
+作者：Zhu Li，Jean-François Ton，Dino Oglic，Dino Sejdinovic
 
-##简介##
+简介
 
 <font size=4>
 随机傅里叶变换是一个被广泛应用于加速核算法的手段，首先我们介绍它的原理。假设$k$是一个平移不变核，即$k(x,y) = k(x-y)$。设该核函数的谱测度$d\tau$的概率密度函数为$p(\cdot)$，那么相应的平移不变核可以写为
