@@ -1,6 +1,6 @@
-#<center>Towards a Unified Analysis of Random Fourier Features（ICML2019）</center>#
-#<center>面向傅里叶变换的统一分析</center>#
-###<center>作者：Zhu Li，Jean-François Ton，Dino Oglic，Dino Sejdinovic</center>###
+#Towards a Unified Analysis of Random Fourier Features（ICML2019）#
+#面向傅里叶变换的统一分析#
+###作者：Zhu Li，Jean-François Ton，Dino Oglic，Dino Sejdinovic###
 
 ##简介##
 
